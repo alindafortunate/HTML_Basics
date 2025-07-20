@@ -15,10 +15,46 @@
         .highlight {
             color: green;
         }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: #111;
+        }
     </style>
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
     <div id="user123" class="user-card" data-user-level="novice" style="border: 1px solid #000;">
         <p class="highlight">Name: Jane Doe</p>
         <p>Interests: HTML, CSS, <strong>JavaScript</strong></p>
@@ -31,6 +67,23 @@
         <p>7 &lt; 8</p>
         <p>Jonan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; and &nbsp; &nbsp; Lucky</p>
         <p><a href="https://savanna.alxafrica.com/concepts/102440?project_id=100581" target="_blank">Savana</a></p>
+    </div>
+    <div>
+        <h2>Working with tables.</h2>
+        <table>
+            <tr>
+                <th>Month</th>
+                <th>Saving</th>
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$200</td>
+            </tr>
+        </table>
     </div>
     <div class="user-card">
         <h2>Working with Lists.</h2>
