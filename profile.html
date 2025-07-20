@@ -72,16 +72,28 @@
         <h2>Working with tables.</h2>
         <table>
             <tr>
-                <th>Month</th>
-                <th>Saving</th>
+                <th scope="col">Month</th>
+                <th scope="col">Saving</th>
             </tr>
             <tr>
-                <td>January</td>
+                <th scope="row">January</th>
                 <td>$100</td>
             </tr>
             <tr>
                 <td>February</td>
                 <td>$200</td>
+            </tr>
+        </table>
+        <h2>Merging tables</h2>
+        <table>
+            <tr>
+                <th>Person</th>
+                <th colspan="2">Details</th>
+            </tr>
+            <tr>
+                <td>John Deo</td>
+                <td> Age: 30</td>
+                <td>Occupation: Developer.</td>
             </tr>
         </table>
     </div>
